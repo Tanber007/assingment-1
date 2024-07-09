@@ -1,0 +1,41 @@
+.azeret-mono-front{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+    /* heder */
+
+/* H-sec-1 */
+.h-cls{
+    display: flex;
+    justify-content: space-between;
+}
+.h-title{
+    font-size: 28px;
+    font-weight: 800;
+    text-align: left;
+}
+.h-btn{
+    border: 1px solid rgb(13, 19, 3);
+    border-radius: 8px;
+    opacity: .8;
+    justify-content: center;
+    padding: 12px 20px 12px 20px;
+}
+/* H-sec-2 */
+.h-bg{
+    background-image: url("../assets/Hero-bg.png");
+    width: 1250px;
+    height: 700px;
+    top: 100px;
+    bottom: 100px;
+}
+.h-img{
+    width: 205px;
+    height: 210px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
