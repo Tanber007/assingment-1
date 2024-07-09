@@ -4,6 +4,11 @@
   font-style: normal;
 }
 
+
+section{
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
     /* heder */
 
 /* H-sec-1 */
@@ -17,11 +22,16 @@
     text-align: left;
 }
 .h-btn{
+    width: 200px;
+    height: 50px;
     border: 1px solid rgb(13, 19, 3);
     border-radius: 8px;
     opacity: .8;
+    align-items: center;
     justify-content: center;
     padding: 12px 20px 12px 20px;
+    margin-top: 20px;
+    cursor: pointer;
 }
 /* H-sec-2 */
 .h-bg{
@@ -65,4 +75,46 @@
     background-color: black;
     border-radius: 8px;
     padding: 20px 24px 20px 24px;
+    cursor: pointer;
+}
+
+
+    /* main */
+
+/* m-sec-1 */
+
+.main{
+    padding: 80px 97px 80px 97px;
+    background-color: rgba(13,19, 33, 0.04);
+}
+.web{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0px;
+    padding: 67px;
+    margin: 32px 0;
+    background-color: white;
+    border-radius: 18px;
+}
+
+.web-title{
+    color: rgba(13,19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+}
+.web-description{
+    color: gray;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin: 16px 0px;
+    width: 550px;
+}
+.web-img{
+    width: 250px;
+    height: 217px;
+    left: 0.35%;
 }
