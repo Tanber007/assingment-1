@@ -118,3 +118,10 @@ section{
     height: 217px;
     left: 0.35%;
 }
+
+/* video */
+.video{
+    height: 400px;
+    padding-left: 350px;
+    margin: 50px 0px;
+}
