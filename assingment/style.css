@@ -213,10 +213,12 @@ a{
 }
 .support{
     background-image: url("../assets/handshake.jpg");
+    background-position: center;
     width: 900px;
-    height: 400px;
+    height: 300px;
     margin-left: 120px;
-    padding: 44px 38px 44px 38px;
+    padding: 100px;
+    padding-bottom: 200px;
     border-radius: 16px;
     justify-content: center;
     align-items: center;
@@ -256,7 +258,6 @@ a{
 .sub-btn{
     border-radius: 8px;
     background: rgb(255, 255, 255);
-    
     padding: 17px 20px 17px 20px;
     width: 120px;
     height: 57px;
