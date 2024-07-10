@@ -142,6 +142,7 @@ section{
     border-radius: 16px;
     margin: 0px 24px;
     padding: 40px;
+    height: 600px;
 }
 .c-img{
     width: 56px;
@@ -230,4 +231,25 @@ a{
     height: 50px;
     border: none;
     cursor: pointer;
+}
+
+/* footer */
+.footer{
+    width: 1250px;
+    height: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+.foot-title{
+    width: 450px;
+    height: 24px;
+    align-items: center;
+    margin: 0px 16px;
+}
+img{
+    margin-left: 10px;
+    margin-right: 10px;
 }
