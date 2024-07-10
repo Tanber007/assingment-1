@@ -5,6 +5,10 @@
 }
 
 
+*{
+    margin: 0;
+    padding: 0;
+}
 section{
     margin-bottom: 80px;
     margin-top: 50px;
@@ -206,7 +210,7 @@ a{
 .support{
     background-image: url("../assets/handshake.jpg");
     width: 900px;
-    height: 500px;
+    height: 400px;
     margin-left: 120px;
     padding: 44px 38px 44px 38px;
     border-radius: 16px;
@@ -259,9 +263,8 @@ a{
 /* footer */
 .footer{
     margin-top: 250px;
-    margin-bottom: -150px;
-    width: 1250px;
-    height: 150px;
+    width: 1150px;
+    height: 250px;
     align-items: center;
     display: flex;
     justify-content: space-between;
