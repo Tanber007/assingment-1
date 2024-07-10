@@ -24,6 +24,7 @@ section{
     font-size: 28px;
     font-weight: 800;
     text-align: left;
+    margin: 25px;
 }
 .h-btn{
     width: 200px;
@@ -35,6 +36,7 @@ section{
     justify-content: center;
     padding: 12px 20px 12px 20px;
     margin-top: 20px;
+    margin-right: 25px;
     cursor: pointer;
 }
 /* H-sec-2 */
@@ -67,11 +69,13 @@ section{
     line-height: 24px;
     text-align: center;
     padding: 0px 170px 0px 170px;
+    margin-top: 30px;
 }
 
 .btn-head{
     text-align: center;
     margin-bottom: 50px;
+    margin-top: 30px;
 }
 .head-btn{
     border: none;
@@ -263,7 +267,7 @@ a{
 /* footer */
 .footer{
     margin-top: 250px;
-    width: 1150px;
+    width: 1263px;
     height: 250px;
     align-items: center;
     display: flex;
@@ -271,13 +275,18 @@ a{
     border-radius: 16px;
     background-color: rgba(13, 19, 33, 0.03);
 }
+footer{
+    margin-bottom: -250px;
+}
 .foot-title{
-    width: 450px;
+    width: 750px;
     height: 24px;
     align-items: center;
     margin: 0px 16px;
+    padding-left: 30px;
 }
 img{
     margin-left: 10px;
     margin-right: 10px;
+    padding-right: 30px;
 }
