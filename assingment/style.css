@@ -210,9 +210,10 @@ a{
 .m-support{
     width: 1180px;
     height: 324px;
+   
 }
 .support{
-    background-image: url("../assets/handshake.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.374), rgba(0, 0, 0, 0.374), rgba(0, 0, 0, 0.374)),url("../assets/handshake.jpg");
     background-position: center;
     width: 900px;
     height: 200px;
@@ -292,3 +293,6 @@ img{
     margin-right: 10px;
     padding-right: 30px;
 }
+
+/* linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.274));
+background-blend-mode: overlay; */
